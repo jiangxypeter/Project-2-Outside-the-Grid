@@ -1,0 +1,112 @@
+html, body{
+	margin:0;
+	font-size: 100%;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #fff;
+}
+/*--header--*/
+.banner {
+    background: url(../assets/images/bann.jpg)no-repeat center;
+    min-height: 800px;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+    position: relative;
+}
+/*-- Republic of Gamers header --*/
+.navbar-header h1 a {
+    font-size: 1.4em;
+    color: #FFF;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 75px;
+}
+.banner-bottom-text h3 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-bottom: 0.5em;
+    width: 75%;
+    line-height: 1.4em;
+    font-weight: 800;
+}
+.banner-bottom {
+    padding-top: 13em;
+    text-align: center;
+}
+/*-- product --*/
+.w3l_head1:before {
+    left: 35% !important;
+}
+.w3_agileits_services_grid{
+	text-align:center;
+	padding: 0;
+}
+.w3_agileits_services_grid_agile {
+    padding: 1em;
+}
+.w3_agileits_services_grid_1 {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #212121;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    margin: 25px auto 0;
+}
+.w3_agileits_services_grid_agile h3{
+	text-transform: capitalize;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    color: #002e5b;
+    margin: 2em 0 1em;
+    padding-bottom: .5em;
+    position: relative;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.w3_agileits_services_grid:hover .w3_agileits_services_grid_agile h3:after {
+    background: #fde428;
+    width: 60%;
+}
+.w3_agileits_services_grid_agile p{
+	color:#999;
+	line-height:2em;
+	font-size: 16px;
+}
+.w3_agileits_services_grid:hover .w3_agileits_services_grid_agile{
+	background: #002e5b;
+}
+.w3_agileits_services_grid:hover .w3_agileits_services_grid_1{
+	background:#fff;
+	border:2px solid #fff;
+}
+.w3_agileits_services_grid:hover .w3_agileits_services_grid_agile h3{
+	color:#fff;
+}
+
+/*-- Titel --*/
+.tittle-agileinfo{
+	margin-bottom:2.5em;
+}
+.tittle-agileinfo h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 35px;
+    color: #002e5b;
+}
+.class-grid {
+    margin-right: 1%;
+	text-align:center;
+	position:relative;
+}
