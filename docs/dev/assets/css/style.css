@@ -6,7 +6,7 @@ html, body{
 }
 /*--header--*/
 .banner {
-    background: url(../assets/images/bann.jpg)no-repeat center;
+    background: url(../images/bann.jpg)no-repeat center;
     min-height: 800px;
     background-size: cover;
 	-webkit-background-size: cover;
